@@ -62,7 +62,6 @@ const Nav = () => {
         <MenuItems>Home</MenuItems>
         <MenuItems>About</MenuItems>
         <MenuItems>Goals</MenuItems>
-        <MenuItems>Team</MenuItems>
         <MenuItems>Projects</MenuItems>
         <Stack spacing={0} direction="row" align="center" marginLeft={40} mt={{base:8, md:0}}>
           <Button variantColor="yellow">Contact</Button>          

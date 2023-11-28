@@ -9,6 +9,7 @@ import Service from "../components/Service";
 import Footer from "../components/Footer";
 import OurProject from "../components/OurPojects";
 import CreativeDirector from "../components/CreativeDirector";
+import Contact from '../components/Contact';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Service />
       <CreativeDirector />
       <OurProject />
+      <Contact />
       <Divider mt="12" />
       <Footer />
     </Box>
