@@ -67,7 +67,7 @@ const Footer = () => {
         </Text>
         <Text mb="6px">Address: C-308 Nairobi</Text>
         <Text mb="6px">Phone: +254 XXXXXX</Text>
-        <Text>Email: info@bright.com</Text>
+        <Text>Email: info@lico.com</Text>
       </Flex>
 
       <Flex

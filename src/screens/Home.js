@@ -12,7 +12,7 @@ import CreativeDirector from "../components/CreativeDirector";
 
 const Home = () => {
   return (
-    <Box flex='1' p='6' overflow='auto'>
+    <Box flex='1' mt={6} overflow='auto'>
       <Nav />
       <Header />
       <BrightHome />

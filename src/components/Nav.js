@@ -37,6 +37,7 @@ const Nav = () => {
       bg="rgba(255,255,255,.8)"
       color="black"
       textTransform="uppercase"
+      //opacity={0.3}
     >
       <Flex align="center" mr={5}>
         <Logo />

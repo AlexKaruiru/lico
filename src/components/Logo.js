@@ -5,9 +5,9 @@ import { Heading, Text } from '@chakra-ui/react';
 const Logo = () => {
   return (
     <>
-      <Heading as="h1" size="lg" color="green.300" textTransform="uppercase">
+      <Heading as="h4" size="lg" color="green.300" textTransform="uppercase">
         <Text display="inline" fontWeight="extrabold">
-          Bright
+          lico
         </Text>{' '}
         <Text display="inline" fontWeight="medium">
          .

@@ -44,7 +44,7 @@ const Header = () => {
           paddingX={['4px', '12px', '12px', '16px', '24px']}
           paddingY={['4px', '4px', '12px', '12px', '16px']}
         >
-          Welcome to Bright
+          Welcome to Lico
         </Heading>
         <Heading
           as="h3"
