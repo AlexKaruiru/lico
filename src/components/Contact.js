@@ -40,7 +40,7 @@ const Contact = () => {
                     textAlign={["center", "center", "left", "left"]}
                     mb={4}
                     >
-                    Contact us for your questions, partnerships, comments or suggestions.
+                    Contact us for your questions, comments or suggestions.
                 </Text>
 
         <Flex
@@ -54,7 +54,7 @@ const Contact = () => {
         >
             <Stack
                 spacing={4}
-                w={{ base: "80%", md: "50%" }}
+                w={{ base: "100%", md: "50%" }}
                 align={["center", "center", "flex-start", "flex-start"]}
             >               
                 <Box
@@ -64,6 +64,7 @@ const Contact = () => {
                 overflow="hidden"
                 shadow="md"
                 p={4}
+                colorScheme='green'
                 boxShadow="0px 24px 34px rgba(80, 79, 89, 0.14)"
                 _hover={{
                 transform: 'scale(1.05)',
@@ -114,7 +115,7 @@ const Contact = () => {
                 
             </Stack>
             
-            <Box w={{ base: "100%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+            <Box w={{ base: "100%", md: "50%" }} mb={{ base: 12, md: 0 }}>
             <Image
                 src="https://source.unsplash.com/700x500/?call"
                 size="100%"
@@ -146,7 +147,7 @@ const Contact = () => {
                         borderColor="green.300"
                         boxShadow="0px 24px 34px rgba(80, 79, 89, 0.14)"
                         height="100px"
-                        width={['100%', '100%', '100%', '300px', '250px']} 
+                        width={['250px']} 
                         _hover={{
                           transform: 'scale(1.05)',
                         }}
@@ -169,7 +170,7 @@ const Contact = () => {
                         borderColor="green.300"
                         boxShadow="0px 24px 34px rgba(80, 79, 89, 0.14)"
                         height="100px"
-                        width={['100%', '100%', '100%', '300px', '250px']} 
+                        width={['250px']} 
                         _hover={{
                           transform: 'scale(1.05)',
                         }}
@@ -192,7 +193,7 @@ const Contact = () => {
                         borderColor="green.300"
                         boxShadow="0px 24px 34px rgba(80, 79, 89, 0.14)"
                         height="100px"
-                        width={['100%', '100%', '100%', '300px', '250px']} 
+                        width={['250px']} 
                         _hover={{
                           transform: 'scale(1.05)',
                         }}
@@ -215,7 +216,7 @@ const Contact = () => {
                         borderColor="green.300"
                         boxShadow="0px 24px 34px rgba(80, 79, 89, 0.14)"
                         height="100px"
-                        width={['100%', '100%', '100%', '300px', '250px']} 
+                        width={['250px']} 
                         _hover={{
                           transform: 'scale(1.05)',
                         }}
