@@ -1,14 +1,8 @@
 import React from 'react';
-import { Flex, Text, Heading, Grid, Image } from '@chakra-ui/react';
+import { Flex, Text, Heading, Grid, Image, Link as ChakraLink } from '@chakra-ui/react';
+import { Link as RouterLink } from 'react-router-dom'; 
 
-const projects = [
-  { name: 'Project 1', location: 'Nairobi', image: require('../images/5.png') },
-  { name: 'Project 2', location: 'Thika', image: require('../images/1.jpg') },
-  { name: 'Project 3', location: 'Nakuru', image: require('../images/6.png') },
-  { name: 'Project 4', location: 'Kisumu', image: require('../images/2.jpg') },
-  { name: 'Project 5', location: 'Mombasa', image: require('../images/5.png') },
-  { name: 'Project 6', location: 'Ruiru', image: require('../images/6.png') },
-];
+import { projects } from './projects';
 
 const OurProject = () => {
   return (
@@ -24,12 +18,21 @@ const OurProject = () => {
         gridGap="26px"
         px={['8', '8', '8', '24', '24']}
       >
-        {projects.map((project, index) => (
-          <Flex key={index} flexDirection="column" alignItems="center">
-            <Image src={project.image} width="100%" />
-            <Text mt="2">{project.name}</Text>
-            <Text mt="1" color="green.300">{project.location}</Text>
-          </Flex>
+        {projects.map((project) => (
+          <ChakraLink
+            key={project.id}
+            as={RouterLink}
+            to={`/projects/${project.id}`}
+            _hover={{ textDecor: 'none' }}
+          >
+            <Flex flexDirection="column" alignItems="center">
+              <Image src={project.image} width="100%" />
+              <Text mt="2">{project.name}</Text>
+              <Text mt="1" color="green.300">
+                {project.location}
+              </Text>
+            </Flex>
+          </ChakraLink>
         ))}
       </Grid>
     </Flex>
