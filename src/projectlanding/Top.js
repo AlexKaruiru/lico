@@ -25,13 +25,14 @@ export default function Top() {
 
   return (
     <>     
-      <Container  maxW={'5xl'}>
+      <Container  maxW={'4xl'}>
         <Stack
           as={Box}
           textAlign={'center'}
           py={{ base: 8, md: 8 }}>
           <Heading
             fontWeight={600}
+            mt={4}
             fontSize={{ base: '2xl', sm: '4xl', md: '4xl' }}
             lineHeight={'110%'}>
             Welcome to  <br />
@@ -43,7 +44,7 @@ export default function Top() {
               {selectedProject.location} 
             </Text>
           </Heading>
-          <Text color={'gray.500'}>
+          <Text mt={10} color={'gray.500'}>
            As a project under Lico, we have had the privilege of collaborating aimed at creating sustainable impact in Education. 
            The team at Lico has shown exceptional expertise, passion, and a genuine desire to make a difference.
            Their transparency, accountability, and effective communication have been instrumental in ensuring the success of our 
