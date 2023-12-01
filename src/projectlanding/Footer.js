@@ -55,7 +55,6 @@ export default function LargeWithAppLinksAndSocial() {
             <ListHeader>Company</ListHeader>
             <Link href={'#'}>About Us</Link>
             <Link href={'#'}>Blog</Link>
-            <Link href={'#'}>Careers</Link>
             <Link href={'#'}>Contact Us</Link>
           </Stack>
 
@@ -68,10 +67,8 @@ export default function LargeWithAppLinksAndSocial() {
 
           <Stack align={'flex-start'}>
             <ListHeader>Legal</ListHeader>
-            <Link href={'#'}>Cookies Policy</Link>
             <Link href={'#'}>Privacy Policy</Link>
             <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Law Enforcement</Link>
           </Stack>
 
         
@@ -90,7 +87,7 @@ export default function LargeWithAppLinksAndSocial() {
           spacing={4}
           justify={{ md: 'space-between' }}
           align={{ md: 'center' }}>
-          <Text>© 2023 LENAIROSHI Technologies. All rights reserved</Text>
+          <Text>© {new Date().getFullYear()} All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

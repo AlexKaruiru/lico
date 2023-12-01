@@ -2,7 +2,7 @@ import React from 'react';
 import { Flex, Text, Heading, Grid, Image, Link as ChakraLink } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom'; 
 
-import { projects } from './projects';
+import { projects } from '../projects';
 
 const OurProject = () => {
   return (

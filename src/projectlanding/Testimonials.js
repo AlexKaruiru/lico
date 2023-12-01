@@ -87,8 +87,8 @@ export default function Testimonials() {
     <Box bg={useColorModeValue('gray.100', 'gray.700')}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Our Clients Speak</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Heading>Our Partners Speak</Heading>
+          <Text>We have been working with partners from around the world</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
@@ -97,8 +97,9 @@ export default function Testimonials() {
             <TestimonialContent>
               <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Working with Lico has been an incredibly rewarding experience for us at XYZ Foundation. 
+                From the outset, their commitment to positive change and unwavering dedication to their mission have 
+                deeply resonated with our values.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -111,10 +112,11 @@ export default function Testimonials() {
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Intuitive Design</TestimonialHeading>
+              <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Working with Lico has been an incredibly rewarding experience for us at XYZ Foundation. 
+                From the outset, their commitment to positive change and unwavering dedication to their mission have 
+                deeply resonated with our values.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -127,10 +129,11 @@ export default function Testimonials() {
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Mindblowing Service</TestimonialHeading>
+              <TestimonialHeading>Community Service</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Working with Lico has been an incredibly rewarding experience for us at XYZ Foundation. 
+                From the outset, their commitment to positive change and unwavering dedication to their mission have 
+                deeply resonated with our values.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
