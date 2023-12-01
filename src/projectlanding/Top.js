@@ -5,9 +5,8 @@ import {
   Text,
   Button,
   Stack,
-  Flex,
 } from '@chakra-ui/react';
-import { Link as RouterLink, useParams } from 'react-router-dom'; 
+import {  useParams } from 'react-router-dom'; 
 
 import { projects } from '../projects';
 
@@ -26,16 +25,11 @@ export default function Top() {
 
   return (
     <>     
-      <Container w={'100%'}>
+      <Container  maxW={'5xl'}>
         <Stack
           as={Box}
           textAlign={'center'}
-          py={{ base: 2, md: 2 }}>
-          <Flex justify="space-between">
-            <Button as={RouterLink} to="/" bgColor="green.300" color="white" _hover={{ bgColor: "green.300" }}>
-              Go Back
-            </Button>
-          </Flex>
+          py={{ base: 8, md: 8 }}>
           <Heading
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '4xl' }}
@@ -44,7 +38,7 @@ export default function Top() {
             <Text as={'span'} color={'green.300'}>
               {selectedProject.name}  
             </Text>
-              <Text ml={2} as={'span'}  >Located in </Text>  <br />
+              <Text ml={4} as={'span'}  >Located in </Text>  <br />
             <Text as={'span'} color={'green.300'}>
               {selectedProject.location} 
             </Text>
