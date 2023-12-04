@@ -232,11 +232,11 @@ const NAV_ITEMS = [
   },
   {
     label: 'Achievements',
-    href: '/project-achievements',
+    href: '/projects/:id/achievements',
   },
   {
     label: 'Challenges',
-    href: '/project-challenges',
+    href: '/projects/:id/challenges',
   },
   {
     label: 'Updates',

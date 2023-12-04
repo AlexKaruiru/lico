@@ -82,10 +82,7 @@ export default function Top() {
                   bg: 'green.500',
                 }}>
                 Get Started
-              </Button>
-              <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
-                Learn more
-              </Button>
+              </Button>              
             </Stack>
           </Stack>
           <Box w={{ base: "100%",  md: "50%" }} mb={{ base: 12, md: 0 }}>

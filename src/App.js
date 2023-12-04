@@ -9,20 +9,18 @@ import Updates from './screens/Updates';
 
 function App() {
   return (
-     <BrowserRouter>
-      <Flex as='main' direction='row' bgColor='white.900'>
-                  
-          <Routes>
-            <Route path='/' element={<Home />} /> 
-            <Route path='/projects/:id' element={<ProjectScreen />} />  
-            <Route path='/project-achievements' element={<Achievements/>} />       
-            <Route path='/project-challenges' element={<Challenges/>} /> 
-            <Route path='/project-updates' element={<Updates/>} /> 
-          </Routes>
-                 
+    <BrowserRouter>
+      <Flex as="main" direction="row" bgColor="white.900">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/:id" element={<ProjectScreen />} />
+          <Route path="/projects/:id/achievements" element={<Achievements />} />
+          <Route path="/projects/:id/challenges" element={<Challenges />} />
+          <Route path="/projects/:id/updates" element={<Updates />} />
+        </Routes>
       </Flex>
     </BrowserRouter>
-  );  
+  );
 }
 
 export default App;
