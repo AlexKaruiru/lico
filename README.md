@@ -1,5 +1,7 @@
 # Lico Landing Page
 
-### Comment here
+## Built With :
+### React 
+### Vite 
 
  
