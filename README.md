@@ -1,10 +1,10 @@
 # Lico Landing Page
-
-## Built With :
-### React 
-### Vite 
-
-## Comments 
-### Great Starting Landing page 
-
  
+# Stack
+- **React** 
+- **MongoDB**
+- **Vite**
+- **Redux** 
+
+# Comments
+- Great Starting Landing page 
